@@ -16320,6 +16320,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2845403, y: 0.9482997, z: 0.8538684}
   m_Center: {x: 0.0068756077, y: -0.041157223, z: 0.4269341}
+--- !u!1 &750000767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1561487907547171, guid: bec8fbf23e70b4f42b574dddd6681a4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 750000763}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &750796107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30551,6 +30557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 0}
+  myButton: {fileID: 0}
   scene: 0
 --- !u!4 &1376514505
 Transform:
@@ -41105,7 +41112,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ef8be07be39dfd24db26e32bf8105205, type: 2}
+  - {fileID: 2100000, guid: e7d383fe8c3be9c48b27696981132a7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46984,7 +46991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreTxt: {fileID: 1101000223}
-  final: {fileID: 0}
+  final: {fileID: 750000767}
 --- !u!4 &2120053244
 Transform:
   m_ObjectHideFlags: 0

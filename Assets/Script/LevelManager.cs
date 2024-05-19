@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private GameObject menuPanel;
     public static LevelManager instance;
-    public Button myButton;
+  //  public Button myButton;
     private void Awake()
     {
         if (instance == null)
@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         scene = SceneName.Level_1;
-        myButton.onClick.AddListener(ExitGame);
+       // myButton.onClick.AddListener(ExitGame);
 
     }
     public void NextLevel()
